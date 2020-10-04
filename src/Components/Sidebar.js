@@ -1,5 +1,5 @@
 import React from 'react'
-import './Sidebar.css'
+import '../css/Sidebar.css'
 import DonutLargeIcon from '@material-ui/icons/DonutLarge';
 import ChatIcon from '@material-ui/icons/Chat';
 import MoreVertIcon from '@material-ui/icons/MoreVert';

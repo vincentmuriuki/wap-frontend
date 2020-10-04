@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import './Chat.css';
+import '../css/Chat.css';
 import { Avatar, IconButton } from '@material-ui/core';
 import SearchOutlined from '@material-ui/icons/SearchOutlined';
 import MoreVert from '@material-ui/icons/MoreVert';
 import AttachFile from '@material-ui/icons/AttachFile';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import MicIcon from '@material-ui/icons/Mic';
-import axios from './axios';
+import axios from '../axios';
 
 function Chat({ messages }) {
   const [input, setInput] = useState('');
@@ -21,6 +21,7 @@ function Chat({ messages }) {
 
     setInput('');
   };
+
   return (
     <div className='chat'>
       <div className='chat__header'>
